@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="header bg-light w-full">
+    <div class="container mx-auto px-[12px]">
+      <div class="flex justify-between items-center border-b border-b-grey border-opacity-20 py-5">
+        <nav class="navigation fixed top-0 left-0 h-full bg-dark bg-opacity-80 p-10 text-white z-10 flex flex-col w-[280px] uppercase lg:normal-case lg:p-0 lg:w-auto lg:text-dark lg:flex-row lg:relative lg:bg-transparent">
+          <a class="text-2xl mr-4 py-3 font-medium" href="#!">About us</a>
+          <a class="text-2xl mr-4 py-3 font-medium" href="#!">Service</a>
+          <a class="text-2xl mr-4 py-3 font-medium" href="#!">Blog</a>
+          <a class="text-2xl mr-4 py-3 font-medium" href="#!">Contact</a>
+          <span class="close-menu inline-block absolute top-0 right-0 p-2 text-2xl lg:hidden"><div class="bi-x-lg"></div></span>
+        </nav>
+        <div class="sidebar-mask block fixed top-0 left-0 h-full w-full  lg:hidden"></div>
+        <a class="text-5xl font-bold" href="#!">Marft<span class="text-warning">.</span></a>
+        <ul class="hidden lg:inline-flex">
+          <li class="ml-3"><a class="inline-block rounded-full text-center border border-grey border-opacity-10 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-facebook"> </i></span></a></li>
+          <li class="ml-3"><a class="inline-block rounded-full text-center border border-grey border-opacity-10 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-dribbble"></i></span></a></li>
+          <li class="ml-3"><a class="inline-block rounded-full text-center border border-grey border-opacity-10 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-instagram"></i></span></a></li>
+        </ul>
+        <span class="hamburger-menu inline-block lg:hidden text-2xl"><i class="bi-list"></i></span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="hero-section" class="bg-light min-h-min">
+      <div class="container mx-auto px-[12px]">
+        <div class="flex items-center py-20 space-x-20">
+          <div class="basis-full lg:basis-1/2">
+            <h1 class="font-semibold text-5xl sm:text-7xl xl:text-8xl lg:leading-[80px] mb-7">Increase your performance on social media</h1>
+            <p class="font-medium text-2xl leading-7 mb-10 max-w-[400px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+            <div class="flex items-center">
+              <button class="bg-warning uppercase rounded-[16px] min-w-[200px] min-h-[70px] p-1 font-bold text-[22px] mr-8">Get started</button>
+              <div class="relative flex items-center border border-grey border-opacity-10 rounded-full pl-[10px] py-[8px] pr-[15px] -space-x-1 mr-5">
+                <img class="rounded-full object-fit w-[37px] h-[37px] ring-2 ring-light -m-l-2" src="./images/user1.jpg" alt="">
+                <img class="rounded-full object-fit w-[34px] h-[34px] ring-2 ring-light -m-l-2" src="./images/user2.jpg" alt="">
+                <img class="rounded-full object-fit w-[31px] h-[31px] ring-2 ring-light -m-l-2" src="./images/user3.jpg" alt="">
+                <span class="absolute -right-[8px] text-warning">
+                  <i class="bi-star-fill"></i>
+                </span>
+              </div>
+              <div>
+                <div class="uppercase leading-3 text-[14px] font-semibold opacity-40">Rating</div>
+                <span class="font-semibold text-[18px]">5.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="basis-full lg:basis-1/2 hidden lg:block">
+            <div class="flex space-x-3">
+              <div class="basis-1/2">
+                <div class="max-h-[750px] h-full w-full">
+                  <img class="w-full h-full object-cover " src="./images/hero1.jpg" alt="">
+                </div>
+              </div>
+              <div class="basis-1/2">
+                <div class="max-h-[750px] w-full h-full">
+                  <img class="w-full h-full object-cover" src="./images/hero2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partner-section" class="py-16 xl:pt-24 xl:pb-32">
+      <div class="container mx-auto px-[12px]">
+        <div class="flex flex-wrap lg:flex-nowrap items-center">
+          <div class="basis-full lg:basis-4/12 py-[10px]">
+            <div class="border-l-4 border-l-warning pl-[20px] pb-[8px] max-w-[420px] mb-5 lg:mb-0">
+              <h2 class="font-semibold text-5xl mb-3">Trusted by over <br> 10k clients & brands</h2>
+              <p class="text-2xl leading-6">Lorem ipsum dolor sit amet, solor ut adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="basis-full lg:basis-8/12 grow">
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner1.png" alt="">
+              </div>
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner2.png" alt="">
+              </div>
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner3.png" alt="">
+              </div>
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner4.png" alt="">
+              </div>
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner5.png" alt="">
+              </div>
+              <div class="border-2 border-opacity-10 border-grey py-9 text-center">
+                <img class="inline-block w-auto" src="./images/partner6.png" alt="">
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-dark py-20">
+      <div class="container mx-auto px-[12px]">
+        <div class="flex">
+          <div class="hidden lg:block basis-1/2 relative">
+            <img class="object-cover max-w-[430px]" src="./images/image1.jpg" alt="">
+            <img width="273" class="absolute object-cover hidden xl:inline-block top-[30%] right-[20%] rotate-12" src="./images/image2.jpg" alt="">
+          </div>
+          <div class="basis-full lg:basis-1/2">
+            <div class=" lg:max-w-[520px]">
+              <h3 class="text-white font-semibold text-7xl mb-10">Take your social media marketing to the next level</h3>
+              <ul class="list-none list-inside text-white mb-7 text-[22px] font-semibold">
+                <li class="relative before:content-[url(../images/accept.png)] before:absolute before:top-[50%] before:left-0 before:-translate-y-[50%] before:h-[24px] pl-[40px] mb-4">Leo erat magna feugiat non enim</li>
+                <li class="relative before:content-[url(../images/accept.png)] before:absolute before:top-[50%] before:left-0 before:-translate-y-[50%] before:h-[24px] pl-[40px] mb-4">Leo erat magna feugiat</li>
+                <li class="relative before:content-[url(../images/accept.png)] before:absolute before:top-[50%] before:left-0 before:-translate-y-[50%] before:h-[24px] pl-[40px] mb-4">Leo erat magna non enim</li>
+              </ul>
+              <p class="text-white opacity-60 text-2xl font-normal mb-10">Leo erat magna feugiat pellentesque non enim eu donec diam. Proin donec lacus tortor posuere diam lorem massa viverra aliquam. Vitae nulla nullam in viverra lectus.</p>
+              <a class="inline-block text-center align-middle bg-white rounded-[16px] min-w-[180px] min-h-[70px] p-2 font-bold text-2xl leading-loose uppercase" href="#!">About us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="video-section" class="relative h-[50vh] lg:h-[70vh] xl:h-screen max-h-[900px] bg-no-repeat bg-cover bg-center" style="background-image: url('./images/poster.jpg');">
+      <!-- <video id="footage" class="w-full" src="./images/footage2.mp4" poster="./images/poster.jpg"></video> -->
+      <span id="play-video" class="absolute flex items-center justify-center text-3xl top-1/2 left-1/2 bg-white bg-opacity-80 h-24 w-24 rounded-full z-[1] text-center -translate-x-1/2 -translate-y-1/2 cursor-pointer ring-4 ring-transparent hover:ring-opacity-60 hover:ring-white transition-shadow">
+        <i class="bi-play-fill"></i>
+      </span>
+    </section>
+
+    <section id="service-section" class="bg-light py-16 xl:py-32">
+      <div class="container mx-auto px-[12px]">
+        <div class="text-center mx-auto max-w-[580px] mb-20">
+          <h3 class="font-semibold text-6xl lg:text-7xl mb-5">What we provide</h3>
+          <p class="text-2xl font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap lg:space-x-8 space-y-6 lg:space-y-0">
+          <div class="basis-full lg:basis-1/3">
+            <div class="bg-[#EAE4DC] p-8 xl:p-20 h-full">
+              <div class="min-h-[60px] mb-3"><img class="inline-block max-w-[60px]" src="./images/icon1.svg" alt=""></div>
+              <span class="block font-semibold text-5xl mb-5">Social <br class="sm:max-lg:hidden"> advertising</span>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt.</p>
+              <a class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80" href="#!">Learn More</a>
+            </div>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <div class="bg-[#EAE4DC] p-8 xl:p-20 h-full">
+              <div class="min-h-[60px] mb-3"><img class="inline-block max-w-[60px]" src="./images/icon2.svg" alt=""></div>
+              <span class="block font-semibold text-5xl mb-5">Partnership Management</span>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt.</p>
+              <a class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80" href="#!">Learn More</a>
+            </div>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <div class="bg-[#EAE4DC] p-8 xl:p-20 h-full">
+              <div class="min-h-[60px] mb-3"><img class="inline-block max-w-[60px]" src="./images/icon3.svg" alt=""></div>
+              <span class="block font-semibold text-5xl mb-5">Content Creations</span>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt.</p>
+              <a class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80" href="#!">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feedback-section" class="py-16 lg:py-32">
+      <div class="container mx-auto px-[12px]">
+        <div class="swiper feedback-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="flex flex-wrap md:flex-nowrap items-center justify-between max-w-[1200px] mx-auto">
+                <div class="basis-full lg:basis-1/2">
+                  <div class="lg:max-w-[550px]">
+                    <div class="mb-6">
+                      <span class="inline-block mr-3 font-semibold text-2xl">4.00</span>
+                      <span class="text-[18px]">
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-light"></i>
+                      </span>
+                    </div>
+                    <p class="text-3xl md:text-5xl font-semibold mb-8">”Lorem ipsum dolor sit amet, ut consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum st turpis.“</p>
+                    <div class="flex items-center">
+                      <span class="inline-block mr-4">
+                        <img class="w-[54px] h-[54px] rounded-full border-dark border" src="./images/user1.jpg" alt="">
+                      </span>
+                      <div>
+                        <span class="inline-block text-2xl font-semibold">Joe Elia</span>
+                        <p class="text-xl font-medium opacity-60">User Interface Design</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden lg:block basis-1/2 text-right">
+                  <img class="object-cover ml-auto w-[400px]" src="./images/feedback.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="flex flex-wrap md:flex-nowrap items-center justify-between max-w-[1200px] mx-auto">
+                <div class="basis-full lg:basis-1/2">
+                  <div class="lg:max-w-[550px]">
+                    <div class="mb-6">
+                      <span class="inline-block mr-3 font-semibold text-2xl">4.00</span>
+                      <span class="text-[18px]">
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-warning"></i>
+                        <i class="bi-star-fill text-light"></i>
+                      </span>
+                    </div>
+                    <p class="text-3xl md:text-5xl font-semibold mb-8">”Lorem ipsum dolor sit amet, ut consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum st turpis.“</p>
+                    <div class="flex items-center">
+                      <span class="inline-block mr-4">
+                        <img class="w-[54px] h-[54px] rounded-full border-dark border" src="./images/user1.jpg" alt="">
+                      </span>
+                      <div>
+                        <span class="inline-block text-2xl font-semibold">Joe Elia</span>
+                        <p class="text-xl font-medium opacity-60">User Interface Design</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hidden lg:block basis-1/2 text-right">
+                  <img class="object-cover ml-auto w-[400px]" src="./images/feedback.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination custom-pagination text-right lg:text-center"></div>
+        </div>
+      </div>
+    </section>
+    <section id="start-section" class="bg-dark py-16 lg:py-28 relative">
+      <div class="container mx-auto px-[12px]">
+        <div class="text-center mx-auto max-w-[1200px]">
+          <h4 class="text-white font-semibold text-6xl lg:text-8xl mb-8">Ready to increase your social media performance</h4>
+          <p class="mx-auto text-white text-opacity-70 text-2xl max-w-[500px] mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+          <a class="inline-block uppercase bg-warning text-dark rounded-[16px] w-auto min-w-[200px] py-5 px-2 font-bold text-2xl" href="#!">Get started</a>
+        </div>
+      </div>
+      <img class="absolute top-0 left-0" src="./images/line.png" alt="">
+      <img class="absolute bottom-0 right-0 rotate-180" src="./images/line.png" alt="">
+    </section>
+
+    <section class="article-section py-12 lg:py-28">
+      <div class="container mx-auto px-[12px]">
+        <div class=" mb-20 flex flex-wrap lg:flex-nowrap items-end justify-between">
+          <div class="w-full lg:max-w-[500px] mb-5 lg:mb-0">
+            <h3 class="font-semibold text-6xl lg:text-7xl mb-5">Read our blogs</h3>
+            <p class="text-2xl font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+          </div>
+          <a class="inline-block uppercase bg-dark text-warning rounded-[16px] w-auto min-w-[230px] py-5 px-2 font-bold text-2xl text-center" href="#!">Read All Blogs</a>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap space-y-10 lg:space-y-0 lg:space-x-14">
+          <div class="basis-full lg:basis-1/3">
+            <a class="flex flex-col h-full" href="#!">
+              <img class="object-cover mb-4  w-full h-[280px]" src="./images/article.jpg" alt="">
+              <span class="text-[#F29764] font-semibold mb-2">April 30, 2020</span>
+              <h5 class="font-semibold text-4xl mb-2">How to collaborate with companies</h5>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+              <span class="flex-auto"></span>
+              <span class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80">Learn More</span>
+            </a>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <a class="flex flex-col h-full" href="#!">
+              <img class="object-cover mb-4 w-full h-[280px]" src="./images/article1.jpg" alt="">
+              <span class="text-[#F29764] font-semibold mb-2">April 30, 2020</span>
+              <h5 class="font-semibold text-4xl mb-2">It is all about social media advertising</h5>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+              <span class="flex-auto"></span>
+              <span class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80">Learn More</span>
+            </a>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <a class="flex flex-col h-full" href="#!">
+              <img class="object-cover mb-4  w-full h-[280px]" src="./images/article2.jpg" alt="">
+              <span class="text-[#F29764] font-semibold mb-2">April 30, 2020</span>
+              <h5 class="font-semibold text-4xl mb-2">How to become an expert in social media marketing</h5>
+              <p class="mb-8 font-medium text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+              <span class="grow"></span>
+              <span class="uppercase decoration-current underline text-2xl font-bold hover:opacity-80">Learn More</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark">
+    <div class="py-16 lg:py-24">
+      <div class="container mx-auto px-[12px]">
+        <div class="mx-auto max-w-[400px] text-center mb-16 lg:mb-24">
+          <a class="inline-block text-white text-5xl font-bold mb-4" href="#!">Marft<span class="text-warning">.</span></a>
+          <p class="text-2xl text-white font-light opacity-60 mb-6">Lorem ipsum dolor sit amet elit, sed do tempor solor ut dolore magna</p>
+          <ul class="inline-flex">
+            <li class="mx-3"><a class="inline-block rounded-full text-white text-center border border-light border-opacity-20 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-facebook"> </i></span></a></li>
+            <li class="mx-3"><a class="inline-block rounded-full text-white text-center border border-light border-opacity-20 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-dribbble"></i></span></a></li>
+            <li class="mx-3"><a class="inline-block rounded-full text-white text-center border border-light border-opacity-20 hover:border-opacity-100 transition-[border] h-[40px] w-[40px]" href="#!"><span class="inline leading-[36px]"><i class="bi-instagram"></i></span></a></li>
+          </ul>
+        </div>
+        <div class="text-center mb-16 lg:mb-36">
+          <span class="block font-semibold text-white text-5xl lg:text-7xl mb-6">Subscribe to our Newsletter</span>
+          <p class="text-white opacity-70 text-2xl mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <form class="text-center">
+            <div class="inline-flex border border-white border-opacity-20 rounded-[16px]">
+              <input class="inline-block text-white lg:min-w-[600px] px-6 pt-6 pb-7 py- border-r border-r-white border-opacity-20 bg-transparent shadow-none outline-none text-2xl" type="email" placeholder="Enter your email" required>
+              <button class="uppercase text-warning min-h-[80] py-6 px-8 font-bold text-2xl" type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap space-y-5 lg:space-y-0 lg:space-x-12">
+          <div class="basis-full lg:basis-1/3">
+            <span class="block mb-2 text-white opacity-60 text-2xl">DM us  on:</span>
+            <a class="text-white text-4xl" href="#!">info@marft.com</a>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <span class="block mb-2 text-white opacity-60 text-2xl">Call us on:</span>
+            <a class="text-white text-4xl" href="#!">(+1) 0139 2092 2033</a> <br>
+            <a class="text-white text-4xl" href="#!">(+1) 0392 5938 000</a>
+          </div>
+          <div class="basis-full lg:basis-1/3">
+            <span class="block mb-2 text-white opacity-60 text-2xl">Find us:</span>
+            <address>
+              <span class="text-white text-4xl">767 5th Street, 21st Floor, New York, USA</span>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-t-white border-opacity-20">
+      <div class="container mx-auto px-[12px] ">
+        <div class="flex flex-wrap md:flex-nowrap justify-between pt-6 pb-8">
+          <p class="mb-4 lg:mb-0 text-2xl text-white opacity-30">&copy;Marft 2021. All rights reserved.</p>
+          <div>
+            <a class="inline-block lg:ml-6 text-2xl text-white opacity-40 hover:opacity-70" href="#!">Privacy Policy</a>
+            <a class="inline-block lg:ml-6 text-2xl text-white opacity-40 hover:opacity-70" href="#!">Terms of Conditions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
